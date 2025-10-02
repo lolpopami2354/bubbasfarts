@@ -2,6 +2,18 @@
 
 <html style="background-color: black;">
   <body>
+    <style>
+        /* Optional: Style the iframe to be large enough to see the game */
+        iframe {
+            width: 900px; /* Adjust as needed */
+            height: 600px; /* Adjust as needed */
+            border: none; /* Removes the default border */
+            display: none; /* Initially hide the iframe */
+        }
+        .visible {
+            display: block; /* Class to make the iframe visible */
+        }
+    </style>
     <link rel="shortcut icon" type="image/x-icon" href="bubbagump.png" />
     <title>Home</title>
     <link rel="icon" type="image/png" href="/images/favicon.ico">
@@ -10,8 +22,13 @@
     <img class="gif" src="https://media1.tenor.com/m/0IixRqy4QoEAAAAC/a-fart-fart.gif">
     <p> </p>
     <br>
-    <button id="sr3d">Snow Rider 3d</button>
-    
+    <button id="playButton">Play Snow Rider 3D</button>
+
+    <center>
+    <iframe id="gameFrame" src=""></iframe>
+    </center>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
     
   
   </center>
