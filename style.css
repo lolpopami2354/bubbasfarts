@@ -8,6 +8,7 @@
     }
 
     #sr3d:hover {
+      padding: 20px 40px;
       background-color: #008CBA;
       color: black;
     }
