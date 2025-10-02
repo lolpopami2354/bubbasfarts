@@ -1,13 +1,13 @@
- .myButton {
-      background-color: #4CAF50; /* Initial background color */
-      color: white; /* Initial text color */
+     #sr3d {
+      background-color: #4CAF50;
+      color: white;
       padding: 10px 20px;
       border: none;
       cursor: pointer;
-      transition: background-color 0.3s ease; /* Smooth transition for hover */
+      transition: background-color 0.3s ease;
     }
 
-    .myButton:hover {
-      background-color: #008CBA; /* Background color on hover */
-      color: black; /* Text color on hover */
+    #sr3d:hover {
+      background-color: #008CBA;
+      color: black;
     }
